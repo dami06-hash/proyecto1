@@ -91,4 +91,31 @@ def main():
 if __name__ == '__main__':
     main()
 
-
+    ruta_conclusiones = os.path.join('outputs', 'resultados', 'conclusiones.txt')
+    
+    with open(ruta_conclusiones, 'w', encoding='utf-8') as f:
+        f.write("RESPUESTAS A LAS PREGUNTAS")
+        f.write("1. ¿Cuál de las tres áreas tiene el promedio más alto?")
+        f.write("Lectura (reading score) tiene el promedio más alto con 69.17 pts, seguida de escritura (68.05 pts) y matemáticas (66.09 pts).")
+        
+        f.write("2. ¿Los estudiantes que realizaron el curso de preparación presentan mejores resultados?")
+        f.write("Sí. Quienes completaron el curso obtuvieron un promedio general de 72.67 pts, en comparación con 65.04 pts de quienes no lo realizaron.")
+        
+        f.write("3. ¿Existen diferencias en el rendimiento según el nivel educativo de los padres?")
+        f.write("Sí. Se observa una relación directa: a mayor grado académico de los padres, mayor es el desempeño del estudiante.")
+        
+        f.write("4. ¿Qué porcentaje de estudiantes alcanza determinado promedio?")
+        f.write("Rendimiento Medio (60 - 79 pts): 51.7%")
+        f.write("Rendimiento Bajo (< 60 pts): 28.5%")
+        f.write("Rendimiento Alto (> 80 pts): 19.8%")
+        
+        f.write("5. ¿Qué grupos presentan los promedios más altos y más bajos?")
+        f.write("Por Etnia: El Grupo E presenta el promedio más alto (72.75 pts) y el Grupo A el más bajo (62.99 pts).")
+        f.write("Por Tipo de Almuerzo: El grupo con Almuerzo Estándar obtiene el promedio más alto (70.84 pts), mientras que el grupo con Almuerzo Gratuito/Reducido registra el más bajo (62.20 pts).")
+        
+        f.write("CONCLUSIONES")
+        f.write("El rendimiento académico de los estudiantes está fuertemente impulsado por factores" \
+        " de apoyo y condiciones socioeconómicas: la preparación previa mediante cursos y un mayor nivel" \
+        " educativo parental (o almuerzo estándar) elevan significativamente los promedios. " \
+        "Por otro lado, matemáticas destaca como la materia con mayor rezago general, " \
+        "marcando el área principal donde se deben concentrar los esfuerzos de reforzamiento.")
