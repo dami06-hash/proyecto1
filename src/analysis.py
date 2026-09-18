@@ -119,3 +119,6 @@ if __name__ == '__main__':
         " educativo parental (o almuerzo estándar) elevan significativamente los promedios. " \
         "Por otro lado, matemáticas destaca como la materia con mayor rezago general, " \
         "marcando el área principal donde se deben concentrar los esfuerzos de reforzamiento.")
+
+print("Lo que mas me costo a la hora de hacer este trabajo fue el clonar el url de mi compañero por que no me dejaba" \
+"pero despues de estarlo intentanto varias veces pudimos clonarlo")
